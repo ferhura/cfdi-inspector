@@ -1,0 +1,56 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+dist/
+build/
+
+# Archivos de entorno
+.env*
+!.env.example  # puedes dejar un ejemplo si lo deseas
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de seguridad y claves
+*.pem
+*.key
+*.crt
+*.pub
+*.gpg
+*.p12
+*.pfx
+*.asc
+
+# SSH y claves personales
+.ssh/
+*.pem
+*.ppk
+*.id_ed*
+
+# VS Code settings (opcional)
+.vscode/
+
+# Archivos de lock (opcional mantener solo uno)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Test/coverage (si usas Jest u otro)
+coverage/
+*.lcov
+
+# Logs temporales
+*.log
+
+# Archivos específicos que generes y no quieras versionar
+*.sqlite
+*.sqlite3
+*.bak
